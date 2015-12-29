@@ -4,7 +4,7 @@ En gjenskapelse av et mørkere tema som tidligere var tilgjengelig på freakforu
 
 Lagt tilgjengelig for de mest brukte nettleserene.
 
-<a href="https://github.com/Lanjelin/oldskewl/tree/master#chrome">Chrome</a>
+<a href="#chrome">Chrome</a>
 
 
 #### Chrome
