@@ -4,7 +4,6 @@ En gjenskapelse av et mørkere tema som tidligere var tilgjengelig på freakforu
 
 Lagt tilgjengelig for de mest brukte nettleserene.
 
-<a href="#chrome">Chrome</a>
 
 
 #### Chrome
