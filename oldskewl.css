@@ -99,14 +99,14 @@ a#logo, a#logo:hover, img[src="http://static3.freak.no/forum/images/custom/logo-
 	width: 0px;
 	height: 145px;
 	padding-left: 136px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/nff-logo5.png') !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/nff-logo5.png') !important;
 }
 
 img[src="http://static3.freak.no/forum/images/buttons/reply.gif"] {
 	width: 0px;
 	height: 26px;
 	padding-left: 110px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/svar.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/svar.png');
 }
 
 img[src="http://static3.freak.no/forum/images/buttons/firstnew.gif"],
@@ -115,37 +115,37 @@ img[src="http://static3.freak.no/forum/images/misc/menu_open_usercss.gif"] {
 	width: 0px;
 	height: 13px;
 	padding-left: 13px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/ulest.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/ulest.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/quote.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/siter.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/siter.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/multiquote_off.gif"], img[alt="Multi-Quote This Message"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/multisiter.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/multisiter.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/quickreply.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/hurtigsvar.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hurtigsvar.png');
 	}
 img[src="http://static3.freak.no/forum/images/custom/button_pluss.gif"] {
 	width: 0px;
 	height: 15px;
 	padding-left: 15px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/kp.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/kp.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/edit.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/rediger.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/rediger.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat.gif"],
 img[src="http://static3.freak.no/forum/images/buttons/collapse_generic.gif"],
@@ -153,7 +153,7 @@ img[src="http://static3.freak.no/forum/images/buttons/collapse_thead.gif"]{
 	width: 0px;
 	height: 14px;
 	padding-left: 14px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/close.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/close.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat_collapsed.gif"],
 img[src="http://static3.freak.no/forum/images/buttons/collapse_generic_collapsed.gif"],
@@ -161,43 +161,43 @@ img[src="http://static3.freak.no/forum/images/buttons/collapse_thead_collapsed.g
 	width: 0px;
 	height: 14px;
 	padding-left: 14px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/open.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/open.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/lastpost.gif"] {
 	width: 0px;
 	height: 13px;
 	padding-left: 13px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/hoyre.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hoyre.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/append.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/leggtil.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/leggtil.png');
 	}
 	img[src="http://static3.freak.no/forum/images/buttons/reply_small.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/svar-liten.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/svar-liten.png');
 	}
 img[src="http://static3.freak.no/forum/images/misc/navbits_start.gif"] {
 	width: 0px;
 	height: 15px;
 	padding-left: 15px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/mappe.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/mappe.png');
 	}
 img[src="http://static3.freak.no/forum/images/misc/navbits_finallink_ltr.gif"] {
 	width: 0px;
 	height: 15px;
 	padding-left: 30px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/mappe2.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/mappe2.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/newthread.gif"] {
 	width: 0px;
 	height: 26px;
 	padding-left: 110px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/nytrad.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/nytrad.png');
 	}
 img[src="http://static3.freak.no/forum/images/misc/multipage.gif"] {
 	display:none;
@@ -206,5 +206,5 @@ img[src="http://static3.freak.no/forum/images/buttons/viewpost.gif"] {
 	width: 0px;
 	height: 13px;
 	padding-left: 13px;
-	background-image:url('chrome-extension://__MSG_@@extension_id__/images/hoyre.png');
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hoyre.png');
 	}
