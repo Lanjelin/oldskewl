@@ -4,6 +4,8 @@ En gjenskapelse av et mørkere tema som tidligere var tilgjengelig på freakforu
 
 Lagt tilgjengelig for de mest brukte nettleserene.
 
+<a href="https://github.com/Lanjelin/oldskewl/tree/master#chrome">Chrome</a>
+
 
 #### Chrome
 Extension kan installeres fra <a href="https://chrome.google.com/webstore/detail/freakno-oldskewl/cpilifhaiommiogjchddffpdhhpmeabl">Chrome Webstore</a>, eller en kan laste ned filene under Chrome, og installere lokalt.
