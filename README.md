@@ -14,7 +14,7 @@ For å installere manuellt, laster en ned filene under Chrome, åpner <a href="c
 
 
 #### Opera
-Opera Extension er på vei, venter på validering, men kan også installeres manuellt.
+Extension kan installeres fra <a href="https://addons.opera.com/en/extensions/details/freakno-oldskewl/?display=nb">Opera add-ons</a>, men kan også installeres manuellt.
 
 For å installere manuellt, laster en ned filene under Opera, åpner <a href="browser://extensions">browser://extensions</a> i Opera, trykker 'Utviklermodus' og velger 'Last inn utpakket utvidelse'. Deretter peker en til Opera-mappen en nylig lastet ned.
 
