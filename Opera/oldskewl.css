@@ -99,6 +99,7 @@ a#logo, a#logo:hover, img[src="http://static3.freak.no/forum/images/custom/logo-
 	width: 0px;
 	height: 145px;
 	padding-left: 136px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/nff-logo5.png') !important;
 }
 
@@ -106,6 +107,7 @@ img[src="http://static3.freak.no/forum/images/buttons/reply.gif"] {
 	width: 0px;
 	height: 26px;
 	padding-left: 110px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/svar.png');
 }
 
@@ -115,36 +117,42 @@ img[src="http://static3.freak.no/forum/images/misc/menu_open_usercss.gif"] {
 	width: 0px;
 	height: 13px;
 	padding-left: 13px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/ulest.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/quote.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/siter.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/multiquote_off.gif"], img[alt="Multi-Quote This Message"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/multisiter.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/quickreply.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/hurtigsvar.png');
 	}
 img[src="http://static3.freak.no/forum/images/custom/button_pluss.gif"] {
 	width: 0px;
 	height: 15px;
 	padding-left: 15px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/kp.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/edit.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/rediger.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat.gif"],
@@ -153,6 +161,7 @@ img[src="http://static3.freak.no/forum/images/buttons/collapse_thead.gif"]{
 	width: 0px;
 	height: 14px;
 	padding-left: 14px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/close.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat_collapsed.gif"],
@@ -161,42 +170,49 @@ img[src="http://static3.freak.no/forum/images/buttons/collapse_thead_collapsed.g
 	width: 0px;
 	height: 14px;
 	padding-left: 14px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/open.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/lastpost.gif"] {
 	width: 0px;
 	height: 13px;
 	padding-left: 13px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/hoyre.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/append.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/leggtil.png');
 	}
 	img[src="http://static3.freak.no/forum/images/buttons/reply_small.gif"] {
 	width: 0px;
 	height: 22px;
 	padding-left: 70px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/svar-liten.png');
 	}
 img[src="http://static3.freak.no/forum/images/misc/navbits_start.gif"] {
 	width: 0px;
 	height: 15px;
 	padding-left: 15px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/mappe.png');
 	}
 img[src="http://static3.freak.no/forum/images/misc/navbits_finallink_ltr.gif"] {
 	width: 0px;
 	height: 15px;
 	padding-left: 30px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/mappe2.png');
 	}
 img[src="http://static3.freak.no/forum/images/buttons/newthread.gif"] {
 	width: 0px;
 	height: 26px;
 	padding-left: 110px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/nytrad.png');
 	}
 img[src="http://static3.freak.no/forum/images/misc/multipage.gif"] {
@@ -206,5 +222,6 @@ img[src="http://static3.freak.no/forum/images/buttons/viewpost.gif"] {
 	width: 0px;
 	height: 13px;
 	padding-left: 13px;
+	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/hoyre.png');
 	}
