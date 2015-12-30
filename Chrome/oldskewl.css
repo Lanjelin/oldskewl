@@ -50,11 +50,11 @@ legend {
         border-width: 1px !important;
 }
 
-.quotetop, .quotemain, .info_bar {
+.quotetop, .quotemain, .info_bar, input/*[value="Slett innlegget"]*/ {
         border-color: #F2CA1D !important;
 }
 
-.alt1 hr, .block_name, .block_title, #minicontact_menu .thead {
+.alt1 hr, .block_name, .block_title, #minicontact_menu .thead, input/*[value="Slett innlegget"]*/ {
         color: #F2CA1D !important;
 }
 
@@ -62,7 +62,7 @@ legend {
         color:#F2CA1D !important;
 }
 
-.navbarbg, .navbar, .navbarbg table tbody tr td, .adBelowNavbar, .adbody, .adurl, #siteWrapper table tbody tr td table tbody tr td[align="right"], .adurl table tbody tr td, tbody tr td[class="alt2"] div[style="background-color: #8B8F9E; padding: 2px 2px 2px 5px"] {
+.navbarbg, .navbar, .navbarbg table tbody tr td, .adBelowNavbar, .adbody, .adurl, #siteWrapper table tbody tr td table tbody tr td[align="right"], .adurl table tbody tr td, tbody tr td[class="alt2"] div[style="background-color: #8B8F9E; padding: 2px 2px 2px 5px"], input/*[value="Slett innlegget"]*/ {
        background: #444444 !important; 
 }
 
@@ -141,6 +141,13 @@ img[src="http://static3.freak.no/forum/images/buttons/quickreply.gif"] {
 	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/hurtigsvar.png');
 	}
+img[src="http://static3.freak.no/forum/images/buttons/forward.gif"] {
+	width: 0px;
+	height: 22px;
+	padding-left: 70px;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/videresend.png');
+	}
 img[src="http://static3.freak.no/forum/images/custom/button_pluss.gif"] {
 	width: 0px;
 	height: 15px;
@@ -157,7 +164,8 @@ img[src="http://static3.freak.no/forum/images/buttons/edit.gif"] {
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat.gif"],
 img[src="http://static3.freak.no/forum/images/buttons/collapse_generic.gif"],
-img[src="http://static3.freak.no/forum/images/buttons/collapse_thead.gif"]{
+img[src="http://static3.freak.no/forum/images/buttons/collapse_thead.gif"],
+img[src="http://static3.freak.no/forum/images/buttons/collapse_alt.gif"]{
 	width: 0px;
 	height: 14px;
 	padding-left: 14px;
@@ -166,7 +174,8 @@ img[src="http://static3.freak.no/forum/images/buttons/collapse_thead.gif"]{
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat_collapsed.gif"],
 img[src="http://static3.freak.no/forum/images/buttons/collapse_generic_collapsed.gif"],
-img[src="http://static3.freak.no/forum/images/buttons/collapse_thead_collapsed.gif"]{
+img[src="http://static3.freak.no/forum/images/buttons/collapse_thead_collapsed.gif"],
+img[src="http://static3.freak.no/forum/images/buttons/collapse_alt_collapsed.gif"]{
 	width: 0px;
 	height: 14px;
 	padding-left: 14px;
@@ -472,4 +481,152 @@ img[src="http://static3.freak.no/forum/images/misc/usercp_icons/newspaper.gif"] 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image:url('chrome-extension://__MSG_@@extension_id__/images/paper_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/user_delete.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/user_shield_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/cog.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/settings_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/lock.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/lock_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/page_red.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/signature_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/picture_edit.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/login_as_user_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/user_add.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/add_user_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/vcard_edit.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/contact_card_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/user_edit.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/edit_user_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_open_image.gif"],
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_open.gif"],
+img[src="http://static3.freak.no/forum/images/statusicon/pm_old.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/read_message_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/statusicon/pm_new.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/message_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/statusicon/pm_replied.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/reply_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_go.gif"],
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_add.gif"],
+img[src="http://static3.freak.no/forum/images/statusicon/pm_forwarded.gif"] {
+	width: 0px;
+	height: 16px;
+	padding-left: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/forward_message_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/statusicon/post_old.gif"] {
+	width: 0px;
+	height: 10px;
+	padding-left: 11px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/paper_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/im_icq.gif"] {
+	width: 0px;
+	height: 25px;
+	padding-left: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/ICQ_copyrighted_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/im_msn.gif"] {
+	width: 0px;
+	height: 25px;
+	padding-left: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/group.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/im_skype.gif"] {
+	width: 0px;
+	height: 25px;
+	padding-left: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/skype_copyrighted_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/im_aim.gif"] {
+	width: 0px;
+	height: 25px;
+	padding-left: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/running_filled.png');
+}
+img[src="http://static3.freak.no/forum/images/misc/im_yahoo.gif"] {
+	width: 0px;
+	height: 25px;
+	padding-left: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url('chrome-extension://__MSG_@@extension_id__/images/Y.png');
 }
