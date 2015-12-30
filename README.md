@@ -26,4 +26,10 @@ Firefox Addon er på vei, men uvisst når <a href="https://blog.mozilla.org/addo
 For å installere manuellt, laster en ned filene under Firefox og legger dem i en .zip fil. Her er det viktig at en ikke har filene i en mappe først, men icons, images, manifest og oldskewl.css er rett i .zip'en. Deretter endrer en .zip til .xpi. Videre må en åpne <a href="about:config">about:config</a> i Firefox, søke etter 'xpinstall.signatures.required' og sette denne til false. Til slutt åpner en <a href="about:addons">about:addons</a>, og drar .xpi-filen her.
 
 
+
+#### Safari
+Safari extension er på vei, venter på developer status.
+
+
+
 ###### more to come...
