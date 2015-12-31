@@ -31,7 +31,7 @@ legend {
 	color: #F1CA1D !important;
 	}
 
-.alt2, .panelsurround, .controlbar td, td.controlbar, .vBulletin_editor, div[style="padding:3px"] td, fieldset, fieldset td, fieldset tr, fieldset table, .imagebutton, .panel, .vbmenu_option, .tcat, .vbmenu_control, td.tfoot, .tfoot a, .tfoot div strong a, .tfoot[align="right"], .quotemain, .panelsurround .panel div fieldset, tbody[id="collapseobj_module_20"] tr td[class="alt1"] table tbody tr td, .vbmenu_popup{
+.alt2, .panelsurround, .controlbar td, td.controlbar, .vBulletin_editor, div[style="padding:3px"] td, fieldset, fieldset td, fieldset tr, fieldset table, .imagebutton, .panel, .vbmenu_option, .tcat, .vbmenu_control, td.tfoot, .tfoot a, .tfoot div strong a, .tfoot[align="right"], .quotemain, .panelsurround .panel div fieldset, tbody[id="collapseobj_module_20"] tr td[class="alt1"] table tbody tr td, .vbmenu_popup {
 	border-color: #F2CA1D !important;
 	color: #F2CA1D !important;
 	background: #444444 !important;
@@ -45,12 +45,12 @@ legend {
 	background: #505050 !important;
 }
 
-.threadstarter, hr, #buddylist li{
+.threadstarter, hr, #buddylist li {
         border-color: #F2CA1D !important;
         border-width: 1px !important;
 }
 
-.quotetop, .quotemain, .info_bar, select, input/*[value="Slett innlegget"]*/ {
+.quotetop, .quotemain, .info_bar, select, input, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie:hover{
         border-color: #F2CA1D !important;
 }
 
