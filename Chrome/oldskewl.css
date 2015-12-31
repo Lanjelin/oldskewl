@@ -2,7 +2,7 @@ body, table, tr, td, tbody, #browserWidth {
 	background:#26292e;
 	color:#F2CA1D !important;
 }
-span[style="background-color: #f4f4f4; padding: 3px;"], .bb-spoiler{
+span[style="background-color: #f4f4f4; padding: 3px;"]{
     background-color: #26292E !important;
 }
 div[style="margin: 10px 0; background-color: #FFFF88; padding: 20px;"]{
@@ -54,7 +54,7 @@ legend {
         border-color: #F2CA1D !important;
 }
 
-.alt1 hr, .block_name, .block_title, #minicontact_menu .thead, select, input/*[value="Slett innlegget"]*/ {
+.alt1 hr, .block_name, .block_title, #minicontact_menu .thead, select, input, #vB_Editor_001_popup_smilie_menu .thead, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie {
         color: #F2CA1D !important;
 }
 
@@ -62,7 +62,7 @@ legend {
         color:#F2CA1D !important;
 }
 
-.navbarbg, .navbar, .navbarbg table tbody tr td, .adBelowNavbar, .adbody, .adurl, #siteWrapper table tbody tr td table tbody tr td[align="right"], .adurl table tbody tr td, tbody tr td[class="alt2"] div[style="background-color: #8B8F9E; padding: 2px 2px 2px 5px"], select, input/*[value="Slett innlegget"]*/ {
+.navbarbg, .navbar, .navbarbg table tbody tr td, .adBelowNavbar, .adbody, .adurl, #siteWrapper table tbody tr td table tbody tr td[align="right"], .adurl table tbody tr td, tbody tr td[class="alt2"] div[style="background-color: #8B8F9E; padding: 2px 2px 2px 5px"], select, input, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie {
        background: #444444 !important; 
 }
 
