@@ -2,7 +2,7 @@ body, table, tr, td, tbody, #browserWidth {
 	background:#26292e;
 	color:#F2CA1D !important;
 }
-span[style="background-color: #f4f4f4; padding: 3px;"], .bb-spoiler{
+span[style="background-color: #f4f4f4; padding: 3px;"]{
     background-color: #26292E !important;
 }
 div[style="margin: 10px 0; background-color: #FFFF88; padding: 20px;"]{
@@ -31,7 +31,7 @@ legend {
 	color: #F1CA1D !important;
 	}
 
-.alt2, .panelsurround, .controlbar td, td.controlbar, .vBulletin_editor, div[style="padding:3px"] td, fieldset, fieldset td, fieldset tr, fieldset table, .imagebutton, .panel, .vbmenu_option, .tcat, .vbmenu_control, td.tfoot, .tfoot a, .tfoot div strong a, .tfoot[align="right"], .quotemain, .panelsurround .panel div fieldset, tbody[id="collapseobj_module_20"] tr td[class="alt1"] table tbody tr td, .vbmenu_popup{
+.alt2, .panelsurround, .controlbar td, td.controlbar, .vBulletin_editor, div[style="padding:3px"] td, fieldset, fieldset td, fieldset tr, fieldset table, .imagebutton, .panel, .vbmenu_option, .tcat, .vbmenu_control, td.tfoot, .tfoot a, .tfoot div strong a, .tfoot[align="right"], .quotemain, .panelsurround .panel div fieldset, tbody[id="collapseobj_module_20"] tr td[class="alt1"] table tbody tr td, .vbmenu_popup {
 	border-color: #F2CA1D !important;
 	color: #F2CA1D !important;
 	background: #444444 !important;
@@ -45,16 +45,16 @@ legend {
 	background: #505050 !important;
 }
 
-.threadstarter, hr, #buddylist li{
+.threadstarter, hr, #buddylist li {
         border-color: #F2CA1D !important;
         border-width: 1px !important;
 }
 
-.quotetop, .quotemain, .info_bar {
+.quotetop, .quotemain, .info_bar, select, input, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie:hover{
         border-color: #F2CA1D !important;
 }
 
-.alt1 hr, .block_name, .block_title, #minicontact_menu .thead {
+.alt1 hr, .block_name, .block_title, #minicontact_menu .thead, select, input, #vB_Editor_001_popup_smilie_menu .thead, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie {
         color: #F2CA1D !important;
 }
 
@@ -62,7 +62,7 @@ legend {
         color:#F2CA1D !important;
 }
 
-.navbarbg, .navbar, .navbarbg table tbody tr td, .adBelowNavbar, .adbody, .adurl, #siteWrapper table tbody tr td table tbody tr td[align="right"], .adurl table tbody tr td, tbody tr td[class="alt2"] div[style="background-color: #8B8F9E; padding: 2px 2px 2px 5px"] {
+.navbarbg, .navbar, .navbarbg table tbody tr td, .adBelowNavbar, .adbody, .adurl, #siteWrapper table tbody tr td table tbody tr td[align="right"], .adurl table tbody tr td, tbody tr td[class="alt2"] div[style="background-color: #8B8F9E; padding: 2px 2px 2px 5px"], select, input, .bb-spoiler, #vB_Editor_001_popup_smilie_menu .osmilie {
        background: #444444 !important; 
 }
 
@@ -95,131 +95,738 @@ legend {
 img[src="http://static3.freak.no/forum/images/custom/logo.gif"], img[alt="Norsk Freakforum"],
 a#logo, a#logo:hover, img[src="http://static3.freak.no/forum/images/custom/logo-freaken2.png"]
 {
-	margin-left: 0px;
-	width: 0px;
-	height: 145px;
-	padding-left: 136px;
+	margin-left: 0px !important;
+	width: 0px !important;
+	height: 145px !important;
+	padding-left: 136px !important;
+	background-repeat: no-repeat !important;
 	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/nff-logo5.png') !important;
 }
 
 img[src="http://static3.freak.no/forum/images/buttons/reply.gif"] {
-	width: 0px;
-	height: 26px;
-	padding-left: 110px;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/svar.png');
+	width: 0px !important;
+	height: 26px !important;
+	padding-left: 110px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/svar.png') !important;
 }
 
 img[src="http://static3.freak.no/forum/images/buttons/firstnew.gif"],
 img[src="http://static3.freak.no/forum/images/misc/menu_open.gif"],
-img[src="http://static3.freak.no/forum/images/misc/menu_open_usercss.gif"] {
-	width: 0px;
-	height: 13px;
-	padding-left: 13px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/ulest.png');
+img[src="http://static3.freak.no/forum/images/misc/menu_open_usercss.gif"],
+img[src="http://static3.freak.no/forum/images/buttons/sortasc.gif"] {
+	width: 0px !important;
+	height: 13px !important;
+	padding-left: 13px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/ulest.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/quote.gif"] {
-	width: 0px;
-	height: 22px;
-	padding-left: 70px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/siter.png');
+	width: 0px !important;
+	height: 22px !important;
+	padding-left: 70px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/siter.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/multiquote_off.gif"], img[alt="Multi-Quote This Message"] {
-	width: 0px;
-	height: 22px;
-	padding-left: 70px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/multisiter.png');
+	width: 0px !important;
+	height: 22px !important;
+	padding-left: 70px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/multisiter.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/quickreply.gif"] {
-	width: 0px;
-	height: 22px;
-	padding-left: 70px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hurtigsvar.png');
+	width: 0px !important;
+	height: 22px !important;
+	padding-left: 70px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hurtigsvar.png') !important;
+	}
+img[src="http://static3.freak.no/forum/images/buttons/forward.gif"] {
+	width: 0px !important;
+	height: 22px !important;
+	padding-left: 70px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/videresend.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/custom/button_pluss.gif"] {
-	width: 0px;
-	height: 15px;
-	padding-left: 15px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/kp.png');
+	width: 0px !important;
+	height: 15px !important;
+	padding-left: 15px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/kp.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/edit.gif"] {
-	width: 0px;
-	height: 22px;
-	padding-left: 70px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/rediger.png');
+	width: 0px !important;
+	height: 22px !important;
+	padding-left: 70px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/rediger.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat.gif"],
 img[src="http://static3.freak.no/forum/images/buttons/collapse_generic.gif"],
-img[src="http://static3.freak.no/forum/images/buttons/collapse_thead.gif"]{
-	width: 0px;
-	height: 14px;
-	padding-left: 14px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/close.png');
+img[src="http://static3.freak.no/forum/images/buttons/collapse_thead.gif"],
+img[src="http://static3.freak.no/forum/images/buttons/collapse_alt.gif"]{
+	width: 0px !important;
+	height: 14px !important;
+	padding-left: 14px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/close.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/collapse_tcat_collapsed.gif"],
 img[src="http://static3.freak.no/forum/images/buttons/collapse_generic_collapsed.gif"],
-img[src="http://static3.freak.no/forum/images/buttons/collapse_thead_collapsed.gif"]{
-	width: 0px;
-	height: 14px;
-	padding-left: 14px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/open.png');
+img[src="http://static3.freak.no/forum/images/buttons/collapse_thead_collapsed.gif"],
+img[src="http://static3.freak.no/forum/images/buttons/collapse_alt_collapsed.gif"]{
+	width: 0px !important;
+	height: 14px !important;
+	padding-left: 14px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/open.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/lastpost.gif"] {
-	width: 0px;
-	height: 13px;
-	padding-left: 13px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hoyre.png');
+	width: 0px !important;
+	height: 13px !important;
+	padding-left: 13px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hoyre.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/append.gif"] {
-	width: 0px;
-	height: 22px;
-	padding-left: 70px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/leggtil.png');
+	width: 0px !important;
+	height: 22px !important;
+	padding-left: 70px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/leggtil.png') !important;
 	}
 	img[src="http://static3.freak.no/forum/images/buttons/reply_small.gif"] {
-	width: 0px;
-	height: 22px;
-	padding-left: 70px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/svar-liten.png');
+	width: 0px !important;
+	height: 22px !important;
+	padding-left: 70px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/svar-liten.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/misc/navbits_start.gif"] {
-	width: 0px;
-	height: 15px;
-	padding-left: 15px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/mappe.png');
+	width: 0px !important;
+	height: 15px !important;
+	padding-left: 15px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/mappe.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/misc/navbits_finallink_ltr.gif"] {
-	width: 0px;
-	height: 15px;
-	padding-left: 30px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/mappe2.png');
+	width: 0px !important;
+	height: 15px !important;
+	padding-left: 30px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/mappe2.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/newthread.gif"] {
-	width: 0px;
-	height: 26px;
-	padding-left: 110px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/nytrad.png');
+	width: 0px !important;
+	height: 26px !important;
+	padding-left: 110px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/nytrad.png') !important;
 	}
 img[src="http://static3.freak.no/forum/images/misc/multipage.gif"] {
-	display:none;
+	display:none !important;
 	}
 img[src="http://static3.freak.no/forum/images/buttons/viewpost.gif"] {
-	width: 0px;
-	height: 13px;
-	padding-left: 13px;
-	background-repeat: no-repeat;
-	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hoyre.png');
+	width: 0px !important;
+	height: 13px !important;
+	padding-left: 13px !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hoyre.png') !important;
 	}
+img[src="http://static3.freak.no/forum/images/editor/bold.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/bold_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/italic.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/italic_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/underline.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/underline_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/justifyleft.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/align_left_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/justifycenter.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/align_center_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/justifyright.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/align_right_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/insertorderedlist.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/numbered_list_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/insertunorderedlist.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/list_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/outdent.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/outdent_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/indent.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/indent_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/createlink.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/link_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/unlink.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/delete_link_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/email.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/email_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/insertimage.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/xlarge_icons_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/quote.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/quote_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/code.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/hashtag_large_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/html.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/source_code_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/php.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/php.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/removeformat.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/delete_sign_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/color.gif"] {
+	width: 0px !important;
+	height: 18px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/generic_text_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/menupop.gif"] {
+	width: 0px !important;
+	height: 15px !important;
+	padding-left: 11px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/down4.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/smilie.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/happy_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/attach.gif"],
+img[src="http://static3.freak.no/forum/images/misc/paperclip.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/attach_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/undo.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/undo.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/redo.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 21px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/redo.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/resize_1.gif"] {
+	width: 0px !important;
+	height: 9px !important;
+	padding-left: 12px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/down4.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/editor/resize_0.gif"] {
+	width: 0px !important;
+	height: 9px !important;
+	padding-left: 12px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/up4.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/attach.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/attach_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/time.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/clock_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/folder_edit.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/opened_folder_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/newspaper.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/paper_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/user_delete.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/user_shield_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/cog.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/settings_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/lock.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/lock_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/page_red.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/signature_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/picture_edit.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/login_as_user_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/user_add.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/add_user_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/vcard_edit.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/contact_card_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/user_edit.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/edit_user_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_open_image.gif"],
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_open.gif"],
+img[src="http://static3.freak.no/forum/images/statusicon/pm_old.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/read_message_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/pm_new.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/message_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/pm_replied.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/reply_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_go.gif"],
+img[src="http://static3.freak.no/forum/images/misc/usercp_icons/email_add.gif"],
+img[src="http://static3.freak.no/forum/images/statusicon/pm_forwarded.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 16px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/forward_message_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/post_old.gif"] {
+	width: 0px !important;
+	height: 10px !important;
+	padding-left: 11px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/paper_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/im_icq.gif"] {
+	width: 0px !important;
+	height: 25px !important;
+	padding-left: 25px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/ICQ_copyrighted_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/im_msn.gif"] {
+	width: 0px !important;
+	height: 25px !important;
+	padding-left: 25px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/group.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/im_skype.gif"] {
+	width: 0px !important;
+	height: 25px !important;
+	padding-left: 25px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/skype_copyrighted_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/im_aim.gif"] {
+	width: 0px !important;
+	height: 25px !important;
+	padding-left: 25px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/running_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/im_yahoo.gif"] {
+	width: 0px !important;
+	height: 25px !important;
+	padding-left: 25px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/Y.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_new.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/read_message_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/message_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_lock.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/lock_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_dot.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/reply_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_dot_new.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/feedback.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_hot_new.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/read_message_filled_dark.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_hot.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/message_filled_dark.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_hot_lock.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/lock_filled_dark.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_dot_hot.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/reply_filled_dark.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/thread_dot_hot_new.gif"] {
+	width: 0px !important;
+	height: 20px !important;
+	padding-left: 20px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/feedback_dark.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/sticky.gif"] {
+	width: 0px !important;
+	height: 12px !important;
+	padding-left: 12px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/pin_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/forum_new.gif"] {
+	width: 0px !important;
+	height: 30px !important;
+	padding-left: 29px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/inspection_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/forum_old.gif"],
+img[src="http://static3.freak.no/forum/images/statusicon/forum_link.gif"] {
+	width: 0px !important;
+	height: 30px !important;
+	padding-left: 29px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/inspection_filled_dark.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/subforum_new.gif"] {
+	width: 0px !important;
+	height: 11px !important;
+	padding-left: 11px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/read_message_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/statusicon/subforum_old.gif"] {
+	width: 0px !important;
+	height: 11px !important;
+	padding-left: 11px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/message_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/whos_online.gif"] {
+	width: 0px !important;
+	height: 30px !important;
+	padding-left: 30px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/conference_call_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/misc/stats.gif"] {
+	width: 0px !important;
+	height: 30px !important;
+	padding-left: 30px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/combo_chart_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/attach/zip.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 15px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/archive_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/attach/rar.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 15px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/winrar_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/attach/doc.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 15px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/ms_word_copyrighted_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/attach/txt.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 15px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/TXT_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/attach/pdf.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 15px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/PDF-2_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/attach/psd.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 15px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/PSD_filled.png') !important;
+}
+img[src="http://static3.freak.no/forum/images/attach/bmp.gif"],
+img[src="http://static3.freak.no/forum/images/attach/gif.gif"],
+img[src="http://static3.freak.no/forum/images/attach/jpe.gif"],
+img[src="http://static3.freak.no/forum/images/attach/jpeg.gif"],
+img[src="http://static3.freak.no/forum/images/attach/jpg.gif"],
+img[src="http://static3.freak.no/forum/images/attach/png.gif"] {
+	width: 0px !important;
+	height: 16px !important;
+	padding-left: 15px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image:url('http://expdvl.com/files/web/nff/style/oldskewl/image_file_filled.png') !important;
+}
