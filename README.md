@@ -28,8 +28,10 @@ For å installere manuellt, laster en ned filene under Firefox og legger dem i e
 
 
 #### Safari
-Safari extension er på vei, venter på developer status.
+Safari extension kan lastes ned <a href="http://expdvl.com/files/freak/oldskewl.safariextz">her</a>, men dukker forhåpentligvis opp hos apple etterhvert. Kan installeres manuellt vha. <a href="https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/UsingExtensionBuilder/UsingExtensionBuilder.html"Safari Extensions Builder</a> og filene til Opera, men er noe styr.
 
 
 
-###### more to come...
+#### Stylish
+Stilen kan også installeres via tredjepartsaddonen Stylish. Stylish kan installeres for følgende nettlesere: <a href="https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe">Chrome</a> - <a href="https://addons.opera.com/extensions/details/stylish/">Opera</a> - <a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome">Firefox</a> - <a href="http://sobolev.us/stylish/">Safari</a>. Etter å ha installert denne, går en inn på <a href="https://userstyles.org/styles/32694/freak-no-oldskewl">Userstyles</a>, og trykker 'Install with Stylish'.
+
