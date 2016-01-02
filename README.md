@@ -28,7 +28,7 @@ For å installere manuellt, laster en ned filene under Firefox og legger dem i e
 
 
 #### Safari
-Safari extension kan lastes ned <a href="http://expdvl.com/files/freak/oldskewl.safariextz">her</a>, men dukker forhåpentligvis opp hos apple etterhvert. Kan installeres manuellt vha. <a href="https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/UsingExtensionBuilder/UsingExtensionBuilder.html"Safari Extensions Builder</a> og filene til Opera, men er noe styr.
+Safari extension kan lastes ned <a href="http://expdvl.com/files/freak/oldskewl.safariextz">her</a>, men dukker forhåpentligvis opp hos apple etterhvert. Kan installeres manuellt vha. <a href="https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/UsingExtensionBuilder/UsingExtensionBuilder.html">Safari Extensions Builder</a> og filene til Opera, men er noe styr.
 
 
 
