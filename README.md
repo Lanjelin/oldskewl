@@ -1,3 +1,6 @@
+## Denne er utdatert, oldskewl er til dels innebygd e de nye stilene på forumet.
+
+
 ## oldskewl stil for freakforum
 
 En gjenskapelse av et mørkere tema som tidligere var tilgjengelig på freakforum.
